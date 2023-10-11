@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.get('/verificar', cors(), (req, res) => {
   // Lógica de verificación o respuesta
-  res.status(200).send('Servidor en funcionamiento gracias Yesica');
+  res.status(200).send('Servidor en funcionamiento gracias a Karencita');
 });
 
 // Ruta para recibir notificaciones de GitHub y actualizar el proyecto principal
